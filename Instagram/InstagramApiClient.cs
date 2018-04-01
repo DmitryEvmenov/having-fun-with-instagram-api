@@ -7,7 +7,7 @@ namespace Instagram
     public class InstagramApiClient
     {
         private static readonly HttpClient Client = new HttpClient();
-        private const string InstagramAccessToken = "bf5028ae-e338-411a-8e11-dfd7a38afa48";
+        private const string InstagramAccessToken = "1535702573.7037be0.5d7fe4aa562a4772bfdc84c6f56d8c50";
         private const string InstagramApiBaseUrl = "https://api.instagram.com/v1/";
         private static string AccessTokenQueryParam => $"access_token={InstagramAccessToken}";
 
