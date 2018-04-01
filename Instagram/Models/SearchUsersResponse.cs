@@ -2,15 +2,13 @@
 
 namespace Instagram.Models
 {
-
-
     public partial class SearchUsersResponse
     {
         [JsonProperty("data")]
-        public SearchUsersResposeData[] Data { get; set; }
+        public SearchUsersResponseData[] Data { get; set; }
     }
 
-    public partial class SearchUsersResposeData
+    public partial class SearchUsersResponseData
     {
         [JsonProperty("username")]
         public string Username { get; set; }
